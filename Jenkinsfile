@@ -7,7 +7,7 @@ environment {
     AWS_REGION = "ap-south-1"
     EKS_CLUSTER = "demo-cluster"
     HELM_RELEASE = "django-todo"
-    HELM_CHART_PATH = "./helm-chart"
+    HELM_CHART_PATH = "./django-todo-chart"
 }
 
 stages {

@@ -1,0 +1,14 @@
+replicaCount: 1
+
+deployment:
+  name: django-todo
+  app: django-todo
+
+container:
+  name: django-todo
+  port: 8000
+
+image:
+  repository: amanbaviskar477/django_todo
+  tag: latest
+  pullPolicy: Always
